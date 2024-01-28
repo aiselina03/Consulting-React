@@ -1,0 +1,27 @@
+.detailContainer {
+  width: 70%;
+  margin: 50px auto;
+  .detail {
+    height: 66vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    i {
+      font-size: 130px;
+      color: #dc3545;
+    }
+    .text {
+      font-family: "Sarabun", sans-serif;
+      h4 {
+        font-size: 25px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}

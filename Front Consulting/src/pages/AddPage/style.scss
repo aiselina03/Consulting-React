@@ -1,0 +1,29 @@
+.addPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .field {
+        margin: 10px 0;
+        width: 300px;
+        height: 50px;
+        outline: none;
+    }
+    button{
+        cursor: pointer;
+        background: #ff2143;
+        padding: 6px 10px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        width: 300px;
+        height: 50px;
+        font-family: "Roboto", sans-serif;
+    }
+  }
+}
